@@ -1,0 +1,83 @@
+:root {
+  --pastelblue: #aeccda;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body{
+  box-sizing:border-box;
+  background-color: #f5f8f9;
+}
+
+h1, .time{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.time, .pastelblu{
+  color: var(--pastelblue);
+}
+
+.heading {
+  top: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid var(--pastelblue) 3px;
+}
+
+.right-side{
+  display:flex;
+  justify-content: flex-end;
+  gap:10px;
+}
+
+.modeSwitch-button{
+  width: 60px;
+  height: 30px;
+  font-size: 20px ;
+  text-align: center;
+
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.tea-cup-img {
+  max-width: 35rem;
+  min-width: 25rem;
+  justify-content: center;
+  align-items: center;
+  border-right: var(--pastelblue) solid 3px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.center-text {
+  text-align: center;
+}
+
+footer{
+  bottom:0;
+  padding: 2rem;
+  margin-top:1rem;
+  border-top: solid var(--pastelblue) 3px;
+  color: var(--pastelblue);
+}

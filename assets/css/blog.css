@@ -1,0 +1,45 @@
+:root {
+  --pastelblue: #aeccda;
+}
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#back-button {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  background-color: var(--pastelblue);
+  color: white;
+  border-color: #f5f8f9;
+}
+
+.blog-timeline{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    border: var(--pastelblue) solid 3px;
+    padding: 1rem;
+    margin:1rem;
+}
+
+.blog-post{
+    justify-content:flex-start;
+    align-items: center;
+    border: var(--pastelblue) solid 3px;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.blogger-title, .blogger-content{
+    padding:1rem;
+    border-bottom: var(--pastelblue) solid 2px;
+}
+
+.blogger-name{
+    padding: 1rem;
+}

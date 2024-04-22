@@ -1,0 +1,52 @@
+:root {
+  --pastelblue: #aeccda;
+}
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.form-section{
+    padding: 1rem;
+    margin: 2rem;
+    border-left: var(--pastelblue) solid 3px;
+}
+
+.spilltea-title{
+    border-bottom: var(--pastelblue) solid 3px;
+    padding:1rem;
+}
+
+.spilltea-title, .pastelblu{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+
+.form-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+
+#userName,
+#title,
+#content {
+  width: 500px;
+  border-color: #f5f8f9 ;
+  border-radius:6px;
+}
+
+#content {
+  height: 200px;
+  font-size: 14pt;
+}
+#submit-button {
+  background-color: var(--pastelblue);
+  color: white;
+  border-color: #f5f8f9 ;
+}
