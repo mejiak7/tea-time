@@ -59,3 +59,5 @@ Inner Monologue of a Bird
 By best friend, Gabrielle Brewer known as user sunako
 
 # Repository Links
+https://mejiak7.github.io/tea-time/
+https://github.com/mejiak7/tea-time.git
