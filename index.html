@@ -7,19 +7,22 @@
         <link rel="stylesheet" href="./assets/css/form.css">
     </head>
     <body>
+        <!-- title -->
         <header class="heading">
             <h1 class="left-text">Tea<span class="time">Time</span></h1>
             <div class="right-side">
-                <p class="modeSwitch-button" id="modeSwitch">🫖</p>
+                <p id="mode-switch">🫖</p>
                 </div>
         </header>
         <main class="main-container">
-                <figure class="tea-cup-img">
-                    <img src="./assets/IMG_1833.jpg" alt="blue-tea-cup"/> 
-                </figure>
+            <!-- image of teacup -->
+            <figure class="tea-cup-img">
+                <img id="image" src="./assets/teacup_light.jpg" alt="blue-tea-cup"/> 
+            </figure>
+            <!-- blog form for user input  -->
             <section class="form-section">
                 <h2 class="spilltea-title"> Spill the <span class="pastelblu">tea...</span></h2>
-                <form class="form-container">
+                <form class="form-container" id="form">
                     <div class="userName">
                         <label class="left-text" for="userName">Username:</label>
                         <br> <input type="text" id="userName" placeholder="@spillteawithme">
@@ -30,17 +33,20 @@
                     </div>
                     <div class="content">
                         <label class="left-text" for="content">Content:</label>
-                        <br><input type="text" id="content" placeholder="Content">
+                        <br><textarea id="content" name="content" placeholder="Spill it.."></textarea>
                     </div>
+                    <!-- submit button -->
                     <div class="button">
                         <button class="center-text" id="submit-button">Submit</button>
                     </div> 
                 </form>
             </section>
         </main>
+        <!-- footer -->
         <footer>
             <h4 class="center-text">Made by 😽 with 🫀</h4>
         </footer>
+        <script src="./assets/javascript/logic.js"></script>
         <script src="./assets/javascript/form.js"></script>
     </body>
 </html>

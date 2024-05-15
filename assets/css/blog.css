@@ -6,6 +6,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* back button styling */
 #back-button {
   width: 60px;
   height: 30px;
@@ -14,8 +15,10 @@
   background-color: var(--pastelblue);
   color: white;
   border-color: #f5f8f9;
+  cursor: pointer;
 }
 
+/* timeline styling */
 .blog-timeline{
     display:flex;
     flex-wrap: wrap;
@@ -26,20 +29,24 @@
     margin:1rem;
 }
 
-.blog-post{
-    justify-content:flex-start;
+article{
+  justify-content:flex-start;
     align-items: center;
     border: var(--pastelblue) solid 3px;
     padding: 1rem;
     width: 100%;
-
+    margin-bottom: 1rem;
 }
 
-.blogger-title, .blogger-content{
-    padding:1rem;
+article p{
+  word-break: break-all;
+}
+
+h3, article p{
+  padding:1rem;
     border-bottom: var(--pastelblue) solid 2px;
 }
 
-.blogger-name{
-    padding: 1rem;
+h5{
+  padding: 1rem;
 }

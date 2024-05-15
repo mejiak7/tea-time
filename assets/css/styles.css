@@ -1,5 +1,7 @@
 :root {
   --pastelblue: #aeccda;
+  --lightblue: #f5f8f9;
+  --darkgreyblue: #36454f;
 }
 
 * {
@@ -8,11 +10,14 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* default styling for both index and blog html */
 body{
   box-sizing:border-box;
-  background-color: #f5f8f9;
+  background-color: var(--lightblue);
+  color: var(--darkgreyblue);
 }
 
+/* header styling */
 h1, .time{
   font-weight: bold;
   font-size: 40px;
@@ -35,13 +40,24 @@ h1, .time{
   gap:10px;
 }
 
-.modeSwitch-button{
+/* mode switch icon styling */
+#mode-switch{
   width: 60px;
   height: 30px;
   font-size: 20px ;
   text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* mode switch dark mode styling*/
+.dark-mode{
+  background-color: var(--darkgreyblue);
+  color: var(--lightblue);
 
 }
+
+/* image container and form container styling */
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +66,7 @@ h1, .time{
   padding: 0;
 }
 
+/* image styling */
 img {
   width: 100%;
 }
@@ -62,6 +79,7 @@ img {
   border-right: var(--pastelblue) solid 3px;
 }
 
+/* text styling */
 .left-text {
   text-align: left;
 }
@@ -74,6 +92,7 @@ img {
   text-align: center;
 }
 
+/* footer styling */
 footer{
   bottom:0;
   padding: 2rem;

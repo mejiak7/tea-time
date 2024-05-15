@@ -1,18 +1,24 @@
 :root {
   --pastelblue: #aeccda;
+  --lightblue: #f5f8f9;
+  --darkgreyblue: #36454f;
 }
 
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* form styling */
 .form-section{
     padding: 1rem;
     margin: 2rem;
     border-left: var(--pastelblue) solid 3px;
 }
 
+/* title */
 .spilltea-title{
     border-bottom: var(--pastelblue) solid 3px;
     padding:1rem;
@@ -24,6 +30,7 @@
     text-align: center;
   }
 
+  /* form container styling */
 .form-container {
   display: inline-block;
   justify-content: center;
@@ -32,21 +39,25 @@
   margin-top: 1rem;
 }
 
-
+/* input styling */
 #userName,
-#title,
-#content {
-  width: 500px;
-  border-color: #f5f8f9 ;
+#title, textarea {
+  border-color: var(--lightblue) ;
   border-radius:6px;
 }
 
-#content {
-  height: 200px;
-  font-size: 14pt;
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
 }
+
+/* submit button styling */
 #submit-button {
   background-color: var(--pastelblue);
   color: white;
-  border-color: #f5f8f9 ;
+  border-color: var(--lightblue) ;
+  cursor: pointer;
 }
